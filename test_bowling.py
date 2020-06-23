@@ -27,7 +27,7 @@ class TestGame(TestCase):
         """
             Example Test 3: Test splits.
         """
-        print("Example Test 3: Test splits.")
+        print("Example Test 3: Test spare.")
         test_game = BowlingGame("5/ 5/ 5/ 5/ 5/ 5/ 5/ 5/ 5/ 5/ 5")
         self.assertEqual(test_game.score(), 150)
 
